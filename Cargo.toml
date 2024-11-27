@@ -1,0 +1,18 @@
+[package]
+name="evie-cc"
+version="0.1.0"
+authors = ["Evelynn8Bit"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+js-sys = "0.3.72"
+lazy_static = "1.5.0"
+nalgebra = "0.33.2"
+wasm-bindgen = "0.2.95"
+
+[dependencies.web-sys]
+version = "*"
+features = ["Document", "Element", "EventTarget", "HtmlCanvasElement", "MouseEvent", "WebGlBuffer", "WebGlProgram", "WebGlRenderingContext", "WebGlShader", "WebGlUniformLocation", "Window"]
