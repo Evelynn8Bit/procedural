@@ -1,10 +1,19 @@
 {
+  "name": "evie-cc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@wasm-tool/wasm-pack-plugin": "1.7.0",
-    "html-webpack-plugin": "5.6.3",
-    "text-encoding": "^0.7.0",
-    "webpack": "5.96.1",
-    "webpack-cli": "5.1.4",
-    "webpack-dev-server": "5.1.0"
+    "@wasm-tool/wasm-pack-plugin": "github:wasm-tool/wasm-pack-plugin",
+    "html-webpack-plugin": "^5.6.3",
+    "text-encoder": "^0.0.4",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
   }
 }
